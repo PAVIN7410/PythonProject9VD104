@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Блог анекдотов</title>
+     <nav>
+        <a href="/">Главная</a> |
+        <a href="/blog">Блог</a> |
+        <a href="/contacts">Контакты</a>
+    </nav>
+
+</head>
+<body>
+  <h1>Обсуждения пользователей</h1>
+
+  <div style="border: 1px solid #ccc; padding: 10px; max-width: 600px;">
+    <div style="margin-bottom: 15px;">
+      <strong>Петя:</strong> Люблю анекдоты о котах!
+    </div>
+    <div style="margin-bottom: 15px;">
+      <strong>Маша:</strong> Самый лучший анекдот — в мире!
+    </div>
+    <div style="margin-bottom: 15px;">
+      <strong>Иван:</strong> Кто знает новые шутки?
+    </div>
+  </div>
+
+  <!-- Поле для добавления комментариев (статично) -->
+  <form method="post" action="#">
+    <h3>Оставить комментарий</h3>
+    <input type="text" name="name" placeholder="Ваше имя" required /><br><br>
+    <textarea name="comment" placeholder="Ваш комментарий" rows="4" cols="50" required></textarea><br><br>
+    <button type="submit">Отправить</button>
+  </form>
+
+</body>
+</html>
